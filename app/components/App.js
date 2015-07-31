@@ -1,6 +1,7 @@
 import React from 'react';
 import mixins from 'baobab-react/mixins';
 import Login from './Login';
+import LoggedIn from './LoggedIn.js';
 
 let App = React.createClass({
   mixins: [mixins.branch],
